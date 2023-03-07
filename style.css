@@ -90,7 +90,6 @@ body {
 .container {
   margin-left: 1.5rem; /* 24px dividido 16 = 1.5rem */
   margin-right: 1.5rem;
-  overflow: hidden;
 }
 .grid {
   display: grid;
@@ -347,6 +346,7 @@ nav.show div.icon-close {
 /*===== TESTIMONIALS ===================================*/
 #testimonials {
   background: white;
+  overflow: hidden;
 }
 #testimonials .container {
   margin-left: 0;
